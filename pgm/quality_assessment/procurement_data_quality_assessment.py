@@ -1,12 +1,9 @@
 import os
-
 from openai import OpenAI
-
 os.environ['DISABLE_PANDERA_IMPORT_WARNING'] = 'True'
 from dotenv import load_dotenv
 import pandera.pandas as pa
 from pandera import Check, DataFrameSchema, Column
-import openai
 import pandas as pd
 import matplotlib.pyplot as plt
 
